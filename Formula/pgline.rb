@@ -6,13 +6,13 @@ class Pgline < Formula
   on_macos do
     depends_on arch: :arm64
     url "https://github.com/woohp/pgline/releases/download/v0.1.1/pgline-0.1.1-aarch64-apple-darwin.tar.gz"
-    sha256 "126a9d58d754b02d52386922617ae77cc3e9671d0ae92848a464511f74e09542"
+    sha256 "d60f822db1ace1c323f6b66f9be172adc58a4b568273c15e7cfa5be30c4b244a"
   end
 
   on_linux do
     depends_on arch: :x86_64
     url "https://github.com/woohp/pgline/releases/download/v0.1.1/pgline-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "4f8deb026c05c795673eb0927c7b7941f4a1ca0a4555dda5b362dd797c8849a8"
+    sha256 "68073917c6c7cb54d0430b1cfc39d77efe19f65ad0dd36bdcb4c90fa87c6a6e6"
   end
 
   def install
