@@ -1,18 +1,18 @@
 class Pgline < Formula
   desc "Fast, interactive PostgreSQL client"
   homepage "https://github.com/woohp/pgline"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/woohp/pgline/releases/download/v0.1.0/pgline-0.1.0-aarch64-apple-darwin.tar.gz"
-    sha256 "2dbe382c0cc60213fd9957ae0256e2fced1beaf4953e29e9cc728b37294aed36"
+    url "https://github.com/woohp/pgline/releases/download/v0.1.1/pgline-0.1.1-aarch64-apple-darwin.tar.gz"
+    sha256 "126a9d58d754b02d52386922617ae77cc3e9671d0ae92848a464511f74e09542"
   end
 
   on_linux do
     depends_on arch: :x86_64
-    url "https://github.com/woohp/pgline/releases/download/v0.1.0/pgline-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "07b87b9a7d78eacdde60f9324ceaa38157c6f9a55197020c3014f6d3f6fa9331"
+    url "https://github.com/woohp/pgline/releases/download/v0.1.1/pgline-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "4f8deb026c05c795673eb0927c7b7941f4a1ca0a4555dda5b362dd797c8849a8"
   end
 
   def install
